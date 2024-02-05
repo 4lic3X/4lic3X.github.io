@@ -19,7 +19,7 @@ function createTable() {
     var headerRow = table.insertRow();
     headerRow.insertCell(0).innerHTML = 'Object Index';
     headerRow.insertCell(1).innerHTML = 'Static Image';
-    headerRow.insertCell(2).innerHTML = '3D Image';
+    headerRow.insertCell(2).innerHTML = 'GIF';
     // headerRow.insertCell(3).innerHTML = 'Download Link';
     // headerRow.insertCell(2).innerHTML = 'STL File Download Link';
 
