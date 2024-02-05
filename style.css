@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    /* Remove default body margin */
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    min-height: 100vh;
+    /* Optional: ensures the body covers the full viewport height */
+    background-color: #EBEAF0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Add some margin between the header and the table */
+}
+
+.container {
+    width: 600px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 100px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 300px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 300px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 200px;
+}
+
+.column-2-image {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.column-3-image {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+}
